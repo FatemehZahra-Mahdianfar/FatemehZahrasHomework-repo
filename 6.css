@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(2, 2, 49);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moon {
+  position: relative;
+  width: 130px;
+  height: 160px;
+  background-color: #e4e453;
+  border-radius: 50%;
+}
+.shadow {
+  position: absolute;
+  width: 120px;
+  height: 160px;
+  background-color: rgb(2, 2, 49);
+  border-radius: 50%;
+  right: 25px;
+}
