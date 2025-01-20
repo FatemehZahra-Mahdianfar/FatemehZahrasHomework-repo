@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.rectangle1 {
+  width: 220px;
+  height: 110px;
+  background-color: #42e3f8;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.rectangle2 {
+  width: 220px;
+  height: 110px;
+  margin-top: -50px;
+  margin-left: 70px;
+  background-color: rgb(255, 102, 0);
+}
