@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: block;
+}
+.box {
+  position: absolute;
+  width: 220px;
+  height: 90px;
+  background-color: hsl(187, 95%, 46%);
+  text-align: center;
+  line-height: 90px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  font-size: 20px;
+}
