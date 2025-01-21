@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.branch {
+  width: 15px;
+  height: 250px;
+  background-color: rgb(44, 179, 44);
+  position: relative;
+  top: 183px;
+  bottom: 0;
+}
+.leaf {
+  width: 100px;
+  height: 40px;
+  background-color: #63cc7c;
+  border-radius: 90% 5% 90% 5%;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  rotate: 30deg;
+}
+.center {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  border-radius: 50%;
+}
+.petal1 {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-radius: 90% 10% 90% 10%;
+  position: absolute;
+  top: 170px;
+  left: 120px;
+}
+.petal2 {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-radius: 90% 10% 90% 10%;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  rotate: 40deg;
+}
+.petal3 {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-radius: 90% 10% 90% 10%;
+  position: absolute;
+  top: 170px;
+  left: 220px;
+  rotate: 30deg;
+}
+.petal4 {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  border-radius: 90% 10% 90% 10%;
+  position: absolute;
+  top: 125px;
+  left: 220px;
+}
